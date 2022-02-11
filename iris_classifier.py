@@ -41,3 +41,5 @@ result_df['Predicted Values']=prediction_values
 
 #os.mkdir(os.path.join(os.getcwd(),'results_dir'))
 result_df.to_csv(os.path.join(os.getcwd(),'results_dir','resutls.csv'),index=False)
+
+print('jenkens cicd pipeline completed')
