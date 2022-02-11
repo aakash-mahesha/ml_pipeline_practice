@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import os
 
-df=pd.read_csv('iris.data')
+df=pd.read_csv(os.getcwd(),'data','iris.data')
 
 X=df.iloc[:,:-1]
 y=df.iloc[:,-1]
